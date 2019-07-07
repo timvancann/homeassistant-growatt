@@ -10,10 +10,11 @@ It tracks three metrics:
 
 ## Installation
 
-- Clone or download the component to you `custom_components` folder inside the Home Assistant configuration directory.
+- Grab the latest release and download it to your `custom_components` folder inside the Home Assistant configuration directory and unpack it.
 
 ```yaml
-git clone https://github.com/timvancann/homeassistant-growatt <hass_config>/custom_components
+wget https://github.com/timvancann/homeassistant-growatt/releases/download/0.0.1/growatt_solar_panels.tar.gz 
+tar -zxvf growatt_solar_panels.tar.gz 
 ```
 - Add the following entry into `configuration.yaml`
 
