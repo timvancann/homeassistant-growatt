@@ -13,7 +13,7 @@ It tracks three metrics:
 - Clone or download the component to you `custom_components` folder inside the Home Assistant configuration directory.
 
 ```yaml
-git clone https://github.com/timvancann/homeassistant-growatt <hass_config>/custom_components/growatt
+git clone https://github.com/timvancann/homeassistant-growatt <hass_config>/custom_components
 ```
 - Add the following entry into `configuration.yaml`
 
