@@ -1,0 +1,13 @@
+dist: xenial
+language: python
+python: "3.7"
+
+install:
+  - pip3 install pytest==5.0.1 homeassistant growatt==0.0.2 flake8==3.7.7
+
+jobs:
+  include:
+    - stage: test
+      script: flake8 growatt_solar_panels
+    - stage: test
+      script: pytest tests

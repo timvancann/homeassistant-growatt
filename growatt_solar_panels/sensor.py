@@ -72,12 +72,13 @@ class GrowattPlant(Entity):
         """Return the state of the sensor."""
         return self._state
 
-    def convert_multiplier(self, metric_name, multiplier_lookup):
+    @staticmethod
+    def convert_multiplier(metric_name, multiplier_lookup):
         """Convert a value to a given multiplier."""
         if metric_name not in multiplier_lookup:
             message = (
-                "Found an unsupported metric name {}"
-                "cannot convert safely to kWh."
+                "Found an unsupported metric name {}, "
+                "cannot convert safely."
             ).format(metric_name)
             logging.error(message)
             raise ValueError(message)
@@ -169,4 +170,3 @@ class GrowattPlantCurrent(GrowattPlant):
     def name(self):
         """Return the name of the sensor."""
         return "Growatt plant current"
-
