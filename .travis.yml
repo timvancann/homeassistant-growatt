@@ -8,6 +8,8 @@ install:
 jobs:
   include:
     - stage: test
+      name: Test
       script: flake8 growatt_solar_panels
     - stage: test
+      name: Lint
       script: pytest tests

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/timvancann/homeassistant-growatt.svg?branch=master)](https://travis-ci.org/timvancann/homeassistant-growatt)
+
 # Home Assistant Growatt sensor
 
 A sensor to integrate Growatt solar panels into Home Assistant.
