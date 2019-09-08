@@ -9,7 +9,7 @@ jobs:
   include:
     - stage: test
       name: Lint
-      script: flake8 growatt_solar_panels
+      script: flake8 custom_components
     - stage: test
       name: Test
-      script: pytest tests
+      script: pytest

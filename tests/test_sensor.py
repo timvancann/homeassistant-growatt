@@ -4,7 +4,7 @@ from unittest import mock
 import growatt
 import pytest
 
-import growatt_solar_panels.sensor as growatt_sensor
+import custom_components.growatt.sensor as growatt_sensor
 
 
 @mock.patch("growatt.GrowattApi.login", return_value={"userId": "1"})

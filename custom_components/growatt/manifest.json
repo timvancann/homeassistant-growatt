@@ -1,7 +1,7 @@
 {
   "domain": "growatt",
   "name": "Growatt solar panels",
-  "documentation": "https://www.home-assistant.io/components/growatt",
+  "documentation": "https://github.com/timvancann/homeassistant-growatt",
   "requirements": ["growatt==0.0.2"],
   "dependencies": [],
   "codeowners": ["@timvancann"]
