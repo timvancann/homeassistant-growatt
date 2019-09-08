@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/timvancann/homeassistant-growatt.svg?branch=master)](https://travis-ci.org/timvancann/homeassistant-growatt)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
 # Home Assistant Growatt sensor
 
