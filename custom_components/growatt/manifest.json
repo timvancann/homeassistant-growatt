@@ -3,6 +3,7 @@
   "name": "Growatt solar panels",
   "documentation": "https://github.com/timvancann/homeassistant-growatt",
   "requirements": ["growatt==0.0.2"],
+  "version": "0.0.3.1
   "dependencies": [],
   "codeowners": ["@timvancann"]
 }
